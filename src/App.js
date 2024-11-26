@@ -35,7 +35,7 @@ const App = () => {
   // Update a user
   const handleUpdateUser = async () => {
     try {
-      await updateUser(updateUserDetails.ID, {
+      await updateUser({
         ID: updateUserDetails.ID,
         Name: updateUserDetails.Name,
         Email: updateUserDetails.Email,
